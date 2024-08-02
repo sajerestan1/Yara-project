@@ -34,6 +34,9 @@ Note that `.yar` is the standard file extension for all Yara rules. I made one o
     touch myfirstrule.yar
     ```
 
+    ![1](https://github.com/user-attachments/assets/900a08b5-a10f-4070-b82a-7bec43f0f6c9)
+
+
 3. **Opened "myfirstrule.yar" using a text editor such as nano, input the snippet below, and saved the file**:
     ```bash
     nano myfirstrule.yar
@@ -45,11 +48,18 @@ Note that `.yar` is the standard file extension for all Yara rules. I made one o
     }
     ```
 
+![2](https://github.com/user-attachments/assets/a6369cfa-9b21-4b28-bec4-de774c587871)
+
+    
+
 ### Explanation of the Rule
 
 The name of the rule in this snippet is `examplerule`, where I have one condition - in this case, the condition is `condition: true`. As previously discussed, every rule requires both a name and a condition to be valid. This rule has satisfied those two requirements.
 
 Simply, the rule I made checks to see if the file/directory/PID that I specify exists via `condition: true`. If the file does exist, I am given the output of `examplerule`.
+
+![3](https://github.com/user-attachments/assets/9f074aa6-bdca-4bcc-89e9-f1cb0058d30c)
+
 
 ### Testing the Rule
 
